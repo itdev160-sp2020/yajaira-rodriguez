@@ -1,0 +1,50 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: darkolivegreen;
+    color: black;
+}
+
+h1 {
+    background-color: hsl(82, 39%, 30%);
+    color: rgb(255, 140, 0);
+    text-align: center;
+}
+
+h1::first-letter {
+    color: black;
+}
+
+figure {
+    text-align: center;
+}
+
+img {
+    height: 450px;
+    width: 350px;
+    text-align: left;
+}
+
+figcaption {
+    font-weight: bold;
+}
+
+p#product-description {
+ margin: 20px 0 20px 0;
+}
+
+p[id] {
+  color: #ffffff;
+}
+
+h2::first-letter {
+    line-height: 200%;
+    color: darkorange;
+}
+
+div.review {
+    padding: 10px;
+    background-color: darkorange;
+    margin: 20px 0 20px 0;
+    width: 70%;
+}
+
