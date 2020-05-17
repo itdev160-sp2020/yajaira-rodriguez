@@ -9,18 +9,18 @@ var messageType = {
 var data = [
     {
         type: messageType.out,
-        user: 'Mike',
-        message: 'Hey, you have lunch plans?'
+        user: 'Yajaira',
+        message: 'Hey, what would you like for dinner?'
     },
     {
         type: messageType.in,
-        user: 'Joe',
-        message: 'Hi Mike! No, how about Qdoba?'
+        user: 'Laura',
+        message: 'I am craving ribs tonight.'
     },
     {
         type: messageType.out,
-        user: 'Mike',
-        message: "Ok, let's go!"
+        user: 'Yajaira',
+        message: "We should get Double B's then!"
     }
 ];
 
@@ -50,11 +50,11 @@ function addMessageHandler(event) {
 
     switch (event.target.id) {
         case 'send-button':
-            user = 'Mike';
+            user = 'Yajaira';
             type = messageType.out;
             break;
         case 'reply-button':
-            user = 'Joe';
+            user = 'Laura';
             type = messageType.in;
             break;
         default:
